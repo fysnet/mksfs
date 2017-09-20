@@ -13,4 +13,6 @@ Usage:
 or
   mksfs harddisk.txt
 
-See specs.pdf for the specification file.
+See sfs.pdf for the file system's specification file.
+
+More notes to be added soon.
