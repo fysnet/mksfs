@@ -97,7 +97,7 @@ int main(int argc, char *argv[]) {
   super.time_stamp = get_64kseconds();
   //super.data_block_count;   // Size of data area in blocks    (updated later)
   //super.index_size;         // Size of index area *in bytes*  (updated later)
-  super.magic_version = 0x11534653; // Magic number (0x534653) + SFS version (0x10 for Version 1.0)
+  super.magic_version = 0x1A534653; // Magic number (0x534653) + SFS version (0x10 for Version 1.0, 0x1A for v1.10)
   super.total_blocks = resources->tot_sectors - resources->base_lba; // Total number of blocks in volume
   //super.resv_blocks = 1;            // Number of reserved blocks (updated later)
   super.block_size = SFS_BLOCK_SIZE >> 8;         // Block size (2^(x+7) where x = 2 = 512)
